@@ -63,6 +63,11 @@ body {
   align-items: center;
 
   border-bottom: 1px solid #1B3C59;
+  padding: 0 5px;
+}
+
+.List article:hover {
+  background: #ffffff;
 }
 
 .List article span {
@@ -81,4 +86,8 @@ body {
 .List article img {
   width: 30px;
   height: 30px;
+}
+
+.List article img:hover {
+  cursor: pointer;
 }
