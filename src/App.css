@@ -3,7 +3,7 @@ body {
 }
 
 .Header {
-  padding: 0 20%;
+  padding: 0 10%;
   display: flex;
   flex-flow: row wrap;
   border-bottom: 1px solid #1B3C59;
@@ -28,4 +28,57 @@ body {
   font-size: 18px;
   color: #ffffff;
   padding: 27px;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 50px 10%;
+}
+
+.List {
+  background: #F2F2F0;
+  border-radius: 10px;
+  width: 40%;
+  padding: 1.5rem 2rem 2.5rem 2rem;
+}
+
+.List h1 {
+  color: #1B3C59;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.List h1 span {
+  color: #FD5959;
+  text-transform: uppercase;
+}
+
+.List article {
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #1B3C59;
+}
+
+.List article span {
+  color: #11BFAE;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.List article h2 {
+  color: #1B3C59;
+  font-size: 22px;
+  font-weight: normal;
+  flex: 1;
+}
+
+.List article img {
+  width: 30px;
+  height: 30px;
 }
