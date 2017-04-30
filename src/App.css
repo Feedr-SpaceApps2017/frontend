@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Header {
+  padding: 0 20%;
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #1B3C59;
+  background: #F2F2F0;
+  align-items: center;
+}
+
+.Header .Header-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.Header h1 {
+  font-size: 26px;
+  color: #1B3C59;
+  flex: 1;
+}
+
+.Link {
+  background: #11BFAE;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 27px;
+}
